@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class Main
+{
+    public static void main(String args[])
+    {
+        // getting input from user
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        //product of two numbers
+        System.out.println(a*b +"\n"+a/b+"\n"+a%b);
+        //quotient of two numbers
+        //System.out.println(a/b);
+        //remainder of two numbers
+        //System.out.println(a%b);
+    }
+}
