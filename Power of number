@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String[] args)
+    {
+        //get input
+        Scanner sc=new Scanner(System.in);
+        //base value
+        int x=sc.nextInt();
+        int n=sc.nextInt();
+        int i=(int)Math.pow(x,n);
+        System.out.println(i);
+    }
+}
