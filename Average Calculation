@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class Main
+{
+    public static void main(String args[])
+    {
+        // getinput
+        Scanner sc=new Scanner(System.in);
+        float one=sc.nextFloat();
+        float two=sc.nextFloat();
+        float three=sc.nextFloat();
+        float four=sc.nextFloat();
+        float five=sc.nextFloat();
+        System.out.println((one+two+three+four+five)/5);
+    }
+}
